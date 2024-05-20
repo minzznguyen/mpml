@@ -309,7 +309,7 @@ plt.show()
 fig = plt.figure(figsize=(1, 1))
 errors = np.where(y != Yhat)
 random_index = errors[0][0]
-X_random_reshaped = X[random_index].reshape((20, 20)).T
+X_random_reshaped = X[random_index].reshape((100, 100)).T
 plt.imshow(X_random_reshaped, cmap='gray')
 plt.title(f"{y[random_index,0]}, {Yhat[random_index, 0]}")
 plt.axis('off')

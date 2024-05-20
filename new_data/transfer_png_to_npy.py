@@ -1,3 +1,6 @@
+# make X as in the model project
+# aka transfer png to npy file 
+
 import os
 import numpy as np
 import cv2

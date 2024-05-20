@@ -1,3 +1,5 @@
+# make y as in the model project
+
 import numpy as np
 
 def create_and_save_npy(n, value, filename):
